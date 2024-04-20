@@ -1,0 +1,315 @@
+ /* ///////extra small screens/// */
+ @media screen and (min-width:100px) and (max-width:800px)  {
+    header
+    {
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+    } 
+    
+    header h1
+    {
+        font-size: 1.5rem;
+    }
+     header nav ul li a
+     {
+         display: none;
+        
+     }
+     .home_page
+     {
+        background-color: #eeeeee;
+        height: 160vh;
+     }
+    .container .home_text_img
+    {
+         width: 100%;
+         flex-flow: column-reverse;
+         padding-top: 12%;
+         margin-bottom: 10%;
+         height: 150vh;
+ 
+    }
+    .container .home_text_img .home_text
+    {
+     width: 100%;
+    }
+    .container .home_text_img .home_text h2
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .container .home_text_img .home_text p
+    {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    .container .home_text_img .home__img img
+    {
+     width: 100%;
+
+    }
+.home_btns
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+    .gallery
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery .single_gallery
+    {
+        width: 100%;
+    }
+    .gallery .single_gallery img
+    {
+        width: 100%;
+    }
+    .gallery .single_gallery::before
+{
+    content: "";
+    background-image: url('../images/team-shape.svg');
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 4rem;
+    bottom: 0;
+    top: 63%
+}
+.meals_section_in_mealify {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+.div1
+{
+    display: flex;
+    width: 100%;
+}
+.div2
+{
+    display: flex;
+    width: 100%;
+}
+.div3
+{
+    display: flex;
+    width: 100%;
+}
+footer 
+{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    gap: 10px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    height: auto;
+    margin-top: 15px;
+}
+form .name_email
+{
+    flex-direction: column;
+}
+
+footer .footer_divs
+{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+footer .footer_divs .single_div
+{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.single_div .email_input_in_footer button
+{
+    font-size: 1.1rem;
+}
+ }
+ 
+ /* ////start from small to large //// */
+  @media screen and (min-width:801px) and (max-width:1300px)  {
+    header
+    {
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    header h1
+    {
+        font-size: 1.5rem;
+    }
+     header nav ul li a
+     {
+         display: inline-block;
+         padding: 0.4rem 0.5rem;
+         flex-direction: row;
+         font-size: 0.9rem;
+     }
+     .home_page
+     {
+        height: 110vh;
+     }
+    .container .home_text_img
+    {
+         width: 100%;
+         flex-direction: row;
+         padding-top: 1%;
+         margin-bottom: 10%;
+         height: auto;
+ 
+    }
+    .container .home_text_img .home_text
+    {
+     width: 50%;
+    }
+    .container .home_text_img .home_text h2
+    {
+        width: 100%;
+    }
+   
+.container .home_text_img .home__img {
+    width: 50%;
+}
+    .container .home_text_img .home__img img
+    {
+     width: 100%;
+
+    }
+    .home_btns
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+    .gallery
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .gallery .single_gallery
+    {
+        width: 30.33%;
+    }
+    .gallery .single_gallery::before
+    {
+        content: "";
+        background-image: url('../images/team-shape.svg');
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 4rem;
+        top: 45%
+    }
+    
+    footer 
+{
+    width: 100%;
+    height: 170vh;
+    margin-top: 10%;
+}
+footer .footer_divs
+{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px 15px;
+   height: auto;
+}
+footer .footer_divs .single_div
+{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.single_div .email_input_in_footer button
+{
+    padding: 10px 20px;
+    background-color:#ce1212 ;
+    text-align: center;
+    font-size: 1rem;
+}
+ }
+
+ /* ///////////large screens//// */
+ @media screen and (min-width:1301px)   {
+    header
+    {
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    header h1
+    {
+        font-size: 1.5rem;
+    }
+     header nav ul li a
+     {
+         display: inline-block;
+         padding: 0.4rem 0.5rem;
+         flex-direction: row;
+         font-size: 0.9rem;
+     }
+     .home_page
+     {
+        height: auto;
+        background-color: #eeeeee;
+    }
+    .container .home_text_img
+    {
+         width: 100%;
+         flex-direction: row;
+         margin-bottom: 10%;
+         height: auto;
+ 
+    }
+    .container .home_text_img .home_text
+    {
+     width: 50%;
+    }
+    .container .home_text_img .home_text h2
+    {
+        width: 100%;
+    }
+   
+
+    
+    .container .home_text_img .home__img img
+    {
+     width: 100%;
+    }
+    footer 
+    {
+        height: 80vh;
+    }
+    
+ }
+ 
+ 
