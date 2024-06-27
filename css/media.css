@@ -81,9 +81,15 @@
     left: 0;
     right: 0;
     width: 100%;
-    height: 4rem;
     bottom: 0;
-    top: 63%
+    top: 63%;
+    height: 1rem;
+    
+}
+
+#chefs .gallery_caption h3 
+{
+    margin-top: 2px;
 }
 .meals_section_in_mealify {
     display: flex;
@@ -258,6 +264,15 @@ footer .footer_divs .single_div
         height: 4rem;
         top: 45%
     }
+    #chefs .gallery_caption h3 
+{
+    margin-top: 2px;
+    font-size: 1.5rem;
+}
+#chefs .gallery_caption h4
+{
+    margin-top: 25px;
+}
     
     footer 
 {
